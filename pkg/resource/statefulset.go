@@ -46,7 +46,7 @@ const (
 	emptyDirName = "emptydir"
 
 	DbContainerName = "db"
-	certCpCmd       = ">- cp -p "/cockroach/cockroach-certs-prestage/..data/"* /cockroach/cockroach-certs/ && chmod 700 "/cockroach/cockroach-certs/"*.key && chown 1000581000:1000581000 "/cockroach/cockroach-certs/"*.key"
+	certCpCmd       = ">- cp -p '/cockroach/cockroach-certs-prestage/..data/'* /cockroach/cockroach-certs/ && chmod 700 '/cockroach/cockroach-certs/'*.key && chown 1000581000:1000581000 '/cockroach/cockroach-certs/'*.key"
 )
 
 type StatefulSetBuilder struct {
